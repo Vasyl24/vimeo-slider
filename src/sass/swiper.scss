@@ -1,0 +1,28 @@
+.swiper {
+  width: 600px;
+}
+.swiper-wrapper .swiper-slide {
+  width: 150px;
+  height: 150px;
+}
+.container .swiper-button-prev {
+  width: calc(var(--swiper-navigation-size) / 22 * 12);
+  left: var(--swiper-navigation-sides-offset, 0px);
+  color: #ffffff;
+  background-color: #00000078;
+}
+
+.container .swiper-button-prev::after {
+  font-size: 22px;
+}
+
+.container .swiper-button-next {
+  width: calc(var(--swiper-navigation-size) / 22 * 12);
+  right: var(--swiper-navigation-sides-offset, 0px);
+  color: #ffffff;
+  background-color: #00000078;
+}
+
+.container .swiper-button-next::after {
+  font-size: 22px;
+}
